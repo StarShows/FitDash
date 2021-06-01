@@ -1,0 +1,701 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18C498B025B17EB9008F0F96 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C498AF25B17EB9008F0F96 /* Tests_iOS.swift */; };
+		18C498BB25B17EB9008F0F96 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C498BA25B17EB9008F0F96 /* Tests_macOS.swift */; };
+		18C498BD25B17EB9008F0F96 /* FitDashApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C4989425B17EB7008F0F96 /* FitDashApp.swift */; };
+		18C498BE25B17EB9008F0F96 /* FitDashApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C4989425B17EB7008F0F96 /* FitDashApp.swift */; };
+		18C498BF25B17EB9008F0F96 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C4989525B17EB7008F0F96 /* ContentView.swift */; };
+		18C498C025B17EB9008F0F96 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C4989525B17EB7008F0F96 /* ContentView.swift */; };
+		18C498C125B17EB9008F0F96 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18C4989625B17EB9008F0F96 /* Assets.xcassets */; };
+		18C498C225B17EB9008F0F96 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18C4989625B17EB9008F0F96 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18C498AC25B17EB9008F0F96 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18C4988F25B17EB6008F0F96 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18C4989A25B17EB9008F0F96;
+			remoteInfo = "FitDash (iOS)";
+		};
+		18C498B725B17EB9008F0F96 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18C4988F25B17EB6008F0F96 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18C498A225B17EB9008F0F96;
+			remoteInfo = "FitDash (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		18C4989425B17EB7008F0F96 /* FitDashApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitDashApp.swift; sourceTree = "<group>"; };
+		18C4989525B17EB7008F0F96 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		18C4989625B17EB9008F0F96 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18C4989B25B17EB9008F0F96 /* FitDash.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FitDash.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18C4989E25B17EB9008F0F96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18C498A325B17EB9008F0F96 /* FitDash.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FitDash.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18C498A525B17EB9008F0F96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18C498A625B17EB9008F0F96 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		18C498AB25B17EB9008F0F96 /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18C498AF25B17EB9008F0F96 /* Tests_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOS.swift; sourceTree = "<group>"; };
+		18C498B125B17EB9008F0F96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18C498B625B17EB9008F0F96 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18C498BA25B17EB9008F0F96 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
+		18C498BC25B17EB9008F0F96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18C4989825B17EB9008F0F96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18C498A025B17EB9008F0F96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18C498A825B17EB9008F0F96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18C498B325B17EB9008F0F96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18C4988E25B17EB6008F0F96 = {
+			isa = PBXGroup;
+			children = (
+				18C4989325B17EB7008F0F96 /* Shared */,
+				18C4989D25B17EB9008F0F96 /* iOS */,
+				18C498A425B17EB9008F0F96 /* macOS */,
+				18C498AE25B17EB9008F0F96 /* Tests iOS */,
+				18C498B925B17EB9008F0F96 /* Tests macOS */,
+				18C4989C25B17EB9008F0F96 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18C4989325B17EB7008F0F96 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				18C4989425B17EB7008F0F96 /* FitDashApp.swift */,
+				18C4989525B17EB7008F0F96 /* ContentView.swift */,
+				18C4989625B17EB9008F0F96 /* Assets.xcassets */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		18C4989C25B17EB9008F0F96 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18C4989B25B17EB9008F0F96 /* FitDash.app */,
+				18C498A325B17EB9008F0F96 /* FitDash.app */,
+				18C498AB25B17EB9008F0F96 /* Tests iOS.xctest */,
+				18C498B625B17EB9008F0F96 /* Tests macOS.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18C4989D25B17EB9008F0F96 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				18C4989E25B17EB9008F0F96 /* Info.plist */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		18C498A425B17EB9008F0F96 /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				18C498A525B17EB9008F0F96 /* Info.plist */,
+				18C498A625B17EB9008F0F96 /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		18C498AE25B17EB9008F0F96 /* Tests iOS */ = {
+			isa = PBXGroup;
+			children = (
+				18C498AF25B17EB9008F0F96 /* Tests_iOS.swift */,
+				18C498B125B17EB9008F0F96 /* Info.plist */,
+			);
+			path = "Tests iOS";
+			sourceTree = "<group>";
+		};
+		18C498B925B17EB9008F0F96 /* Tests macOS */ = {
+			isa = PBXGroup;
+			children = (
+				18C498BA25B17EB9008F0F96 /* Tests_macOS.swift */,
+				18C498BC25B17EB9008F0F96 /* Info.plist */,
+			);
+			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18C4989A25B17EB9008F0F96 /* FitDash (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18C498C525B17EB9008F0F96 /* Build configuration list for PBXNativeTarget "FitDash (iOS)" */;
+			buildPhases = (
+				18C4989725B17EB9008F0F96 /* Sources */,
+				18C4989825B17EB9008F0F96 /* Frameworks */,
+				18C4989925B17EB9008F0F96 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "FitDash (iOS)";
+			productName = "FitDash (iOS)";
+			productReference = 18C4989B25B17EB9008F0F96 /* FitDash.app */;
+			productType = "com.apple.product-type.application";
+		};
+		18C498A225B17EB9008F0F96 /* FitDash (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18C498C825B17EB9008F0F96 /* Build configuration list for PBXNativeTarget "FitDash (macOS)" */;
+			buildPhases = (
+				18C4989F25B17EB9008F0F96 /* Sources */,
+				18C498A025B17EB9008F0F96 /* Frameworks */,
+				18C498A125B17EB9008F0F96 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "FitDash (macOS)";
+			productName = "FitDash (macOS)";
+			productReference = 18C498A325B17EB9008F0F96 /* FitDash.app */;
+			productType = "com.apple.product-type.application";
+		};
+		18C498AA25B17EB9008F0F96 /* Tests iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18C498CB25B17EB9008F0F96 /* Build configuration list for PBXNativeTarget "Tests iOS" */;
+			buildPhases = (
+				18C498A725B17EB9008F0F96 /* Sources */,
+				18C498A825B17EB9008F0F96 /* Frameworks */,
+				18C498A925B17EB9008F0F96 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18C498AD25B17EB9008F0F96 /* PBXTargetDependency */,
+			);
+			name = "Tests iOS";
+			productName = "Tests iOS";
+			productReference = 18C498AB25B17EB9008F0F96 /* Tests iOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		18C498B525B17EB9008F0F96 /* Tests macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18C498CE25B17EB9008F0F96 /* Build configuration list for PBXNativeTarget "Tests macOS" */;
+			buildPhases = (
+				18C498B225B17EB9008F0F96 /* Sources */,
+				18C498B325B17EB9008F0F96 /* Frameworks */,
+				18C498B425B17EB9008F0F96 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18C498B825B17EB9008F0F96 /* PBXTargetDependency */,
+			);
+			name = "Tests macOS";
+			productName = "Tests macOS";
+			productReference = 18C498B625B17EB9008F0F96 /* Tests macOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18C4988F25B17EB6008F0F96 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					18C4989A25B17EB9008F0F96 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					18C498A225B17EB9008F0F96 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					18C498AA25B17EB9008F0F96 = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 18C4989A25B17EB9008F0F96;
+					};
+					18C498B525B17EB9008F0F96 = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 18C498A225B17EB9008F0F96;
+					};
+				};
+			};
+			buildConfigurationList = 18C4989225B17EB6008F0F96 /* Build configuration list for PBXProject "FitDash" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18C4988E25B17EB6008F0F96;
+			productRefGroup = 18C4989C25B17EB9008F0F96 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18C4989A25B17EB9008F0F96 /* FitDash (iOS) */,
+				18C498A225B17EB9008F0F96 /* FitDash (macOS) */,
+				18C498AA25B17EB9008F0F96 /* Tests iOS */,
+				18C498B525B17EB9008F0F96 /* Tests macOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18C4989925B17EB9008F0F96 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18C498C125B17EB9008F0F96 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18C498A125B17EB9008F0F96 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18C498C225B17EB9008F0F96 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18C498A925B17EB9008F0F96 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18C498B425B17EB9008F0F96 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18C4989725B17EB9008F0F96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18C498BF25B17EB9008F0F96 /* ContentView.swift in Sources */,
+				18C498BD25B17EB9008F0F96 /* FitDashApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18C4989F25B17EB9008F0F96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18C498C025B17EB9008F0F96 /* ContentView.swift in Sources */,
+				18C498BE25B17EB9008F0F96 /* FitDashApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18C498A725B17EB9008F0F96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18C498B025B17EB9008F0F96 /* Tests_iOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18C498B225B17EB9008F0F96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18C498BB25B17EB9008F0F96 /* Tests_macOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18C498AD25B17EB9008F0F96 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18C4989A25B17EB9008F0F96 /* FitDash (iOS) */;
+			targetProxy = 18C498AC25B17EB9008F0F96 /* PBXContainerItemProxy */;
+		};
+		18C498B825B17EB9008F0F96 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18C498A225B17EB9008F0F96 /* FitDash (macOS) */;
+			targetProxy = 18C498B725B17EB9008F0F96 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		18C498C325B17EB9008F0F96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		18C498C425B17EB9008F0F96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		18C498C625B17EB9008F0F96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ECJCYEMG2F;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.StarShowsStudios.FitDash;
+				PRODUCT_NAME = FitDash;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		18C498C725B17EB9008F0F96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ECJCYEMG2F;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.StarShowsStudios.FitDash;
+				PRODUCT_NAME = FitDash;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18C498C925B17EB9008F0F96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = ECJCYEMG2F;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.StarShowsStudios.FitDash;
+				PRODUCT_NAME = FitDash;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		18C498CA25B17EB9008F0F96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = ECJCYEMG2F;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.StarShowsStudios.FitDash;
+				PRODUCT_NAME = FitDash;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		18C498CC25B17EB9008F0F96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ECJCYEMG2F;
+				INFOPLIST_FILE = "Tests iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.StarShowsStudios.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "FitDash (iOS)";
+			};
+			name = Debug;
+		};
+		18C498CD25B17EB9008F0F96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ECJCYEMG2F;
+				INFOPLIST_FILE = "Tests iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.StarShowsStudios.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "FitDash (iOS)";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18C498CF25B17EB9008F0F96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = ECJCYEMG2F;
+				INFOPLIST_FILE = "Tests macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.StarShowsStudios.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "FitDash (macOS)";
+			};
+			name = Debug;
+		};
+		18C498D025B17EB9008F0F96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = ECJCYEMG2F;
+				INFOPLIST_FILE = "Tests macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.StarShowsStudios.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "FitDash (macOS)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18C4989225B17EB6008F0F96 /* Build configuration list for PBXProject "FitDash" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18C498C325B17EB9008F0F96 /* Debug */,
+				18C498C425B17EB9008F0F96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18C498C525B17EB9008F0F96 /* Build configuration list for PBXNativeTarget "FitDash (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18C498C625B17EB9008F0F96 /* Debug */,
+				18C498C725B17EB9008F0F96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18C498C825B17EB9008F0F96 /* Build configuration list for PBXNativeTarget "FitDash (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18C498C925B17EB9008F0F96 /* Debug */,
+				18C498CA25B17EB9008F0F96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18C498CB25B17EB9008F0F96 /* Build configuration list for PBXNativeTarget "Tests iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18C498CC25B17EB9008F0F96 /* Debug */,
+				18C498CD25B17EB9008F0F96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18C498CE25B17EB9008F0F96 /* Build configuration list for PBXNativeTarget "Tests macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18C498CF25B17EB9008F0F96 /* Debug */,
+				18C498D025B17EB9008F0F96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18C4988F25B17EB6008F0F96 /* Project object */;
+}
